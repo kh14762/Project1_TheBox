@@ -1,0 +1,856 @@
+﻿Log file open, 02/21/20 17:13:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PlayTestGarden
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.325935
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.146s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD FX-8320E Eight-Core Processor              , GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:552][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.21-22.13.29:552][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:552][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:561][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:561][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.21-22.13.29:561][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.21-22.13.29:561][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.21-22.13.29:562][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.21-22.13.29:563][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.21-22.13.29:563][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.21-22.13.29:563][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.21-22.13.29:599][  0]LogHAL: Display: Platform has ~ 8 GB [8562798592 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2020.02.21-22.13.29:600][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.21-22.13.29:600][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.21-22.13.29:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.21-22.13.29:601][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.21-22.13.29:602][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.21-22.13.29:602][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Config/Windows/Engine.ini]
+[2020.02.21-22.13.29:602][  0]LogInit: Computer: CRIMSONTIDE-PC
+[2020.02.21-22.13.29:602][  0]LogInit: User: CrimsonTide
+[2020.02.21-22.13.29:602][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.21-22.13.29:602][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.21-22.13.29:602][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.02.21-22.13.29:602][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.21-22.13.29:602][  0]LogMemory: Process Physical Memory: 103.98 MB used, 103.98 MB peak
+[2020.02.21-22.13.29:602][  0]LogMemory: Process Virtual Memory: 89.85 MB used, 89.85 MB peak
+[2020.02.21-22.13.29:602][  0]LogMemory: Physical Memory: 3971.37 MB used,  4194.75 MB free, 8166.12 MB total
+[2020.02.21-22.13.29:602][  0]LogMemory: Virtual Memory: 4634.25 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2020.02.21-22.13.29:628][  0]LogInit: Using OS detected language (en-US).
+[2020.02.21-22.13.29:628][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.21-22.13.29:629][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.21-22.13.30:112][  0]LogStreaming: Display: Took  0.485s to InitEngineTextLocalization.
+[2020.02.21-22.13.30:113][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.21-22.13.30:171][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.21-22.13.30:171][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.21-22.13.30:424][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.21-22.13.30:424][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.21-22.13.30:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2020.02.21-22.13.30:534][  0]LogD3D11RHI:       2007/0/4083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.21-22.13.30:538][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.21-22.13.30:538][  0]LogD3D11RHI:       0/0/4083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.21-22.13.30:538][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.21-22.13.30:548][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.21-22.13.30:548][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.21-22.13.30:549][  0]LogWindows: EnumDisplayDevices:
+[2020.02.21-22.13.30:549][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2020.02.21-22.13.30:549][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2020.02.21-22.13.30:550][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.02.21-22.13.30:550][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.02.21-22.13.30:550][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.21-22.13.30:550][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2020.02.21-22.13.30:550][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.21-22.13.30:550][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.21-22.13.30:550][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2020.02.21-22.13.30:637][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.21-22.13.30:664][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.21-22.13.31:103][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.02.21-22.13.31:124][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.02.21-22.13.31:148][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.02.21-22.13.31:169][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.02.21-22.13.31:190][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.02.21-22.13.31:214][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.02.21-22.13.31:235][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.02.21-22.13.31:256][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.02.21-22.13.31:266][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.21-22.13.31:386][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.02.21-22.13.31:461][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.21-22.13.31:461][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.21-22.13.31:496][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.21-22.13.31:496][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.21-22.13.31:515][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.02.21-22.13.31:533][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.02.21-22.13.31:552][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.02.21-22.13.31:571][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.02.21-22.13.31:641][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.02.21-22.13.31:641][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.02.21-22.13.31:642][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.21-22.13.31:727][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Intermediate/Shaders/WorkingDirectory/2512/).
+[2020.02.21-22.13.31:727][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Crimson Tide/AppData/Local/Temp/UnrealShaderWorkingDir/90A82B7642C008E68F78A2BA3C5E731B/'.
+[2020.02.21-22.13.31:732][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.21-22.13.31:732][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.21-22.13.31:732][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.21-22.13.32:599][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.21-22.13.32:683][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.02.21-22.13.32:683][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2020.02.21-22.13.32:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.21-22.13.32:683][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.21-22.13.32:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.21-22.13.32:683][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.21-22.13.32:710][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.21-22.13.32:710][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.21-22.13.32:710][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.21-22.13.32:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Crimson Tide/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.21-22.13.32:723][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.21-22.13.32:723][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.21-22.13.32:759][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.21-22.13.32:761][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.21-22.13.32:761][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.21-22.13.32:875][  0]LogAssetRegistry: FAssetRegistry took 0.0418 seconds to start up
+[2020.02.21-22.13.33:426][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.21-22.13.33:622][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.02.21-22.13.33:627][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.02.21-22.13.33:627][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.21-22.13.33:627][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.21-22.13.33:627][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.02.21-22.13.33:647][  0]LogNetVersion: PlayTestGarden 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1473096081)
+[2020.02.21-22.13.34:309][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.144216 seconds
+[2020.02.21-22.13.34:316][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2020.02.21-22.13.34:316][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2020.02.21-22.13.34:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.21-22.13.35:414][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.21-22.13.35:427][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.21-22.13.36:274][  0]SourceControl: Source control is disabled
+[2020.02.21-22.13.36:275][  0]SourceControl: Source control is disabled
+[2020.02.21-22.13.36:276][  0]SourceControl: Source control is disabled
+[2020.02.21-22.13.36:276][  0]SourceControl: Source control is disabled
+[2020.02.21-22.13.36:455][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.21-22.13.36:604][  0]LogOcInput: OculusInput pre-init called
+[2020.02.21-22.13.36:759][  0]LogEngine: Initializing Engine...
+[2020.02.21-22.13.36:761][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.21-22.13.36:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.02.21-22.13.36:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.21-22.13.36:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.02.21-22.13.36:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.21-22.13.37:054][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.21-22.13.37:079][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.21-22.13.37:135][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.13.37:206][  0]LogInit: FAudioDevice initialized.
+[2020.02.21-22.13.37:206][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.21-22.13.37:387][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.02.21-22.13.37:394][  0]LogInit: Texture streaming: Enabled
+[2020.02.21-22.13.37:421][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.21-22.13.37:444][  0]LogInit: Transaction tracking system initialized
+[2020.02.21-22.13.37:487][  0]BlueprintLog: New page: Editor Load
+[2020.02.21-22.13.37:617][  0]LocalizationService: Localization service is disabled
+[2020.02.21-22.13.37:980][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2020.02.21-22.13.37:981][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2020.02.21-22.13.37:981][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2020.02.21-22.13.38:238][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.21-22.13.38:238][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.21-22.13.38:238][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.02.21-22.13.38:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.02.21-22.13.38:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.21-22.13.38:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.02.21-22.13.38:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.21-22.13.38:413][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/' took 0.03s
+[2020.02.21-22.13.38:413][  0]SourceControl: Source control is disabled
+[2020.02.21-22.13.38:413][  0]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.21-22.13.38:413][  0]LogEditorServer: Warning: Can't find file 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.02.21-22.13.38:413][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.21-22.13.38:414][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.234ms to complete.
+[2020.02.21-22.13.38:414][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.001
+[2020.02.21-22.13.38:765][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.13.38:785][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.13.38:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.13.38:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.13.38:823][  0]LogCollectionManager: Loaded 0 collections in 0.003665 seconds
+[2020.02.21-22.13.38:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/Collections/' took 0.01s
+[2020.02.21-22.13.38:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/Developers/CrimsonTide/Collections/' took 0.00s
+[2020.02.21-22.13.38:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/Collections/' took 0.01s
+[2020.02.21-22.13.38:914][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.21-22.13.38:943][  0]LogContentBrowser: Native class hierarchy populated in 0.0284 seconds. Added 2651 classes and 620 folders.
+[2020.02.21-22.13.39:026][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.21-22.13.39:133][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:235][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:447][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:507][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:712][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:746][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:804][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.39:969][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:081][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:109][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:122][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:129][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:189][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:199][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:245][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.21-22.13.40:794][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.02.21-22.13.40:847][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2020.02.21-22.13.40:946][  0]LogSlate: Took 0.001259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.21-22.13.40:949][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.21-22.13.40:985][  0]LogSlate: Took 0.023970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.21-22.13.41:135][  0]LogRenderer: Reallocating scene render targets to support 1040x628 Format 10 NumSamples 1 (Frame:1).
+[2020.02.21-22.13.41:352][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.02.21-22.13.41:352][  0]LogLoad: (Engine Initialization) Total time: 13.89 seconds
+[2020.02.21-22.13.41:352][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.21-22.13.41:410][  0]LogAssetRegistry: Asset discovery search completed in 8.5578 seconds
+[2020.02.21-22.13.41:412][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.21-22.13.41:412][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2020.02.21-22.13.41:415][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.21-22.13.41:490][  0]LogSlate: Took 0.032806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.21-22.13.42:396][ 98]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.21-22.13.46:350][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.13.47:522][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.13.47:822][716]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/InventoryComponent.InventoryComponent_C:Inventory.Inventory'. Unknown structure.
+[2020.02.21-22.13.47:923][716]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/Item/Item.Item_C:itemStructure'. Unknown structure.
+[2020.02.21-22.13.47:923][716]LogClass: Warning: Property itemStructure of itemStructure has a struct type mismatch (tag STRUCT_REINST_ItemStructure_0 != prop FallbackStruct) in package:  C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/InventorySystem/Item/Item.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.21-22.13.47:928][716]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/InventoryUI/InventorySlot.InventorySlot_C:SlotContents'. Unknown structure.
+[2020.02.21-22.13.47:935][716]LogClass: Warning: Property SlotContents of SlotContents has a struct type mismatch (tag STRUCT_REINST_SlotStructure_1 != prop FallbackStruct) in package:  C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/InventorySystem/InventoryUI/InventorySlot.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.21-22.13.47:998][716]LogClass: Warning: Property Inventory of Inventory has a struct type mismatch (tag FallbackStruct != prop SlotStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.21-22.13.47:998][716]LogClass: Warning: Property itemStructure of itemStructure has a struct type mismatch (tag FallbackStruct != prop ItemStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.21-22.13.47:999][716]LogClass: Warning: Property SlotContents of SlotContents has a struct type mismatch (tag FallbackStruct != prop SlotStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.21-22.13.48:892][716]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.13.48:932][716]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld
+[2020.02.21-22.13.49:080][716]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Maps/BraveNewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.21-22.13.49:081][716]LightingResults: New page: Lighting Build
+[2020.02.21-22.13.49:085][716]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2020.02.21-22.13.49:086][716]LoadErrors: New page: Loading map: BraveNewWorld.umap
+[2020.02.21-22.13.49:086][716]MapCheck: New page: Map Check
+[2020.02.21-22.13.49:086][716]LightingResults: New page: Lighting Build
+[2020.02.21-22.13.49:521][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.21-22.13.49:727][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.21-22.13.49:731][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4.191ms to complete.
+[2020.02.21-22.13.49:731][716]LogFileHelpers: Loading map 'BraveNewWorld' took 0.652
+[2020.02.21-22.14.00:546][946]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/InventorySystem/HUDPlayerController.HUDPlayerController
+[2020.02.21-22.14.01:272][946]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 117 classes and 0 folders.
+[2020.02.21-22.14.02:521][946]LogSlate: Took 0.004649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.21-22.14.02:624][947]LogSlate: Took 0.012279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.21-22.15.31:997][984]BlueprintLog: New page: Compile HUDPlayerController
+[2020.02.21-22.15.35:163][268]LogSlate: Window 'HUDPlayerController*' being destroyed
+[2020.02.21-22.15.40:575][873]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.21-22.15.47:532][652]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.15.47:563][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.15.47:563][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.15.47:564][652]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:15:47 PM)
+[2020.02.21-22.15.47:577][652]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.15.47:862][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.283940s)
+[2020.02.21-22.15.47:863][652]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.15.47:863][652]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2020.02.21-22.15.47:863][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.285547s)
+[2020.02.21-22.15.48:031][652]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.15.48:060][652]LogInit: FAudioDevice initialized.
+[2020.02.21-22.15.48:108][652]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.15.48:116][652]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.15.48
+[2020.02.21-22.15.48:117][652]LogWorld: Bringing up level for play took: 0.007905
+[2020.02.21-22.15.48:160][652]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.02.21-22.15.48:162][652]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.06
+[2020.02.21-22.15.48:162][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.00:299][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.00:299][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.16.00:341][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.16.00:341][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.00:466][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.16.00:543][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.02.21-22.16.01:466][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.16.03:796][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.16.03:828][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.16.04:075][373]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.16.06:510][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.16.10:350][657]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PlayTestGarden
+[2020.02.21-22.16.10:350][657]LogTemp: CWD: E:\UE_4.21\Engine\Binaries\DotNET\IOS
+[2020.02.21-22.16.10:350][657]LogTemp: Initial Dir: E:\UE_4.21
+[2020.02.21-22.16.10:350][657]LogTemp: Env CWD: E:\UE_4.21\Engine\Binaries\DotNET\IOS
+[2020.02.21-22.16.10:350][657]LogTemp: BranchPath = CRIMSONTIDE-PC/E/UE_4.21/Engine/Binaries --- GameBranchPath = CRIMSONTIDE-PC/E/UE_4.21/Engine/Binaries
+[2020.02.21-22.16.10:350][657]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Crimson Tide\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.02.21-22.16.10:350][657]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.02.21-22.16.17:324][267]LogSlate: Window 'Project Settings' being destroyed
+[2020.02.21-22.16.17:329][267]LogSlate: Window 'Project Settings' being destroyed
+[2020.02.21-22.16.18:661][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.16.19:951][423]LogSlate: Window 'Save Content' being destroyed
+[2020.02.21-22.16.19:966][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.16.20:013][423]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/TopDownGameModeE20C36DF4E7953761DDBDE9B37993D26.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Blueprints/TopDownGameMode.uasset'
+[2020.02.21-22.16.20:067][423]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/HUDPlayerController0209D18049B0B4E339304687FA294A59.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/InventorySystem/HUDPlayerController.uasset'
+[2020.02.21-22.16.21:912][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.16.21:979][643]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.16.22:011][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.22:011][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.16.22:011][643]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:16:22 PM)
+[2020.02.21-22.16.22:012][643]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.16.22:077][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065032s)
+[2020.02.21-22.16.22:078][643]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.16.22:078][643]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2020.02.21-22.16.22:078][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.066821s)
+[2020.02.21-22.16.22:260][643]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.16.22:287][643]LogInit: FAudioDevice initialized.
+[2020.02.21-22.16.22:322][643]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.16.22:330][643]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.16.22
+[2020.02.21-22.16.22:331][643]LogWorld: Bringing up level for play took: 0.007411
+[2020.02.21-22.16.22:345][643]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.244
+[2020.02.21-22.16.22:345][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.29:366][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.29:367][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.16.29:405][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.16.29:405][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.29:523][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.16.29:603][451]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.02.21-22.16.30:720][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.16.43:004][924]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.02.21-22.16.51:067][726]BlueprintLog: New page: Compile TopDownCharacter
+[2020.02.21-22.16.53:971][994]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.16.54:019][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.16.54:019][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.16.54:019][994]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:16:54 PM)
+[2020.02.21-22.16.54:019][994]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.16.54:086][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066767s)
+[2020.02.21-22.16.54:087][994]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.16.54:087][994]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2020.02.21-22.16.54:087][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.068146s)
+[2020.02.21-22.16.54:267][994]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.16.54:295][994]LogInit: FAudioDevice initialized.
+[2020.02.21-22.16.54:326][994]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.16.54:333][994]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.16.54
+[2020.02.21-22.16.54:334][994]LogWorld: Bringing up level for play took: 0.007090
+[2020.02.21-22.16.54:351][994]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.25
+[2020.02.21-22.16.54:351][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.00:117][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.00:117][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.17.00:159][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.17.00:159][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.00:274][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.17.00:299][656]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.02.21-22.17.00:955][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.17.06:312][281]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/InventorySystem/InventoryUI/InventorySlot.InventorySlot
+[2020.02.21-22.17.12:058][841]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/TopDownCharacterED7E727341F2954E856540AC6FA64FCF.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.02.21-22.17.13:989][ 63]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.17.14:032][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.14:033][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.17.14:033][ 63]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:17:14 PM)
+[2020.02.21-22.17.14:033][ 63]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.17.14:099][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065655s)
+[2020.02.21-22.17.14:099][ 63]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.17.14:100][ 63]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2020.02.21-22.17.14:100][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.066909s)
+[2020.02.21-22.17.14:273][ 63]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.17.14:301][ 63]LogInit: FAudioDevice initialized.
+[2020.02.21-22.17.14:335][ 63]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.17.14:341][ 63]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.17.14
+[2020.02.21-22.17.14:342][ 63]LogWorld: Bringing up level for play took: 0.006857
+[2020.02.21-22.17.14:358][ 63]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.257
+[2020.02.21-22.17.14:359][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.25:370][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.25:371][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.17.25:421][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.17.25:421][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.25:538][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.17.25:616][351]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.02.21-22.17.28:477][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.17.32:258][ 12]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.21-22.17.37:253][380]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.17.37:287][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.37:287][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.17.37:287][380]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:17:37 PM)
+[2020.02.21-22.17.37:288][380]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.17.37:349][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061564s)
+[2020.02.21-22.17.37:350][380]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.17.37:350][380]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2020.02.21-22.17.37:351][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.062959s)
+[2020.02.21-22.17.37:542][380]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.17.37:569][380]LogInit: FAudioDevice initialized.
+[2020.02.21-22.17.37:602][380]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.17.37:608][380]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.17.37
+[2020.02.21-22.17.37:609][380]LogWorld: Bringing up level for play took: 0.006968
+[2020.02.21-22.17.37:623][380]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld -0.478
+[2020.02.21-22.17.37:624][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.47:037][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.47:038][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.17.47:082][483]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.17.47:083][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.17.47:220][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.17.47:243][484]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.02.21-22.17.48:965][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.17.59:647][875]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/InventorySystem/HUDPlayerController.HUDPlayerController
+[2020.02.21-22.18.07:553][721]BlueprintLog: New page: Compile HUDPlayerController
+[2020.02.21-22.18.30:244][241]BlueprintLog: New page: Compile TopDownCharacter
+[2020.02.21-22.18.31:785][339]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/TopDownCharacterA16E2F364095E944FDB9BFBBC9F526F9.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2020.02.21-22.18.35:699][645]LogSlate: Window 'Save Content' being destroyed
+[2020.02.21-22.18.35:750][645]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/TopDownGameModeE14B0377400F3E9F38785CAAA8492B5E.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Blueprints/TopDownGameMode.uasset'
+[2020.02.21-22.18.35:793][645]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/HUDPlayerController04485AB84549CE9173C1DC89935C3AE6.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/InventorySystem/HUDPlayerController.uasset'
+[2020.02.21-22.18.36:510][645]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/BraveNewWorldCC7A939646ABFE66B65651B40DB6DDD0.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Maps/BraveNewWorld.umap'
+[2020.02.21-22.18.36:569][645]LogFileHelpers: Saving map 'BraveNewWorld' took 0.769
+[2020.02.21-22.18.37:336][712]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.18.37:386][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.18.37:386][712]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.21-22.18.37:389][712]LogPlayLevel: [PlayLevel] Compiling HUDPlayerController before play...
+[2020.02.21-22.18.37:698][712]LogPlayLevel: PlayLevel: Blueprint regeneration took 312 ms (1 blueprints)
+[2020.02.21-22.18.37:699][712]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:18:37 PM)
+[2020.02.21-22.18.37:699][712]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.18.37:762][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063526s)
+[2020.02.21-22.18.37:763][712]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.18.37:763][712]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2020.02.21-22.18.37:763][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.064647s)
+[2020.02.21-22.18.37:947][712]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.18.37:977][712]LogInit: FAudioDevice initialized.
+[2020.02.21-22.18.38:014][712]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.18.38:021][712]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.18.38
+[2020.02.21-22.18.38:022][712]LogWorld: Bringing up level for play took: 0.007204
+[2020.02.21-22.18.38:037][712]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld -0.064
+[2020.02.21-22.18.38:038][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.18.46:176][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.18.48:230][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.18.48:231][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.18.48:277][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.18.48:277][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.18.48:395][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.18.48:420][872]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.02.21-22.18.49:774][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.19.11:258][448]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.21-22.19.25:617][639]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.21-22.19.25:730][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.02.21-22.19.29:123][747]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.19.29:166][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.19.29:166][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.19.29:166][747]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:19:29 PM)
+[2020.02.21-22.19.29:166][747]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.19.29:228][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062174s)
+[2020.02.21-22.19.29:229][747]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.19.29:229][747]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2020.02.21-22.19.29:229][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.063359s)
+[2020.02.21-22.19.29:410][747]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.19.29:437][747]LogInit: FAudioDevice initialized.
+[2020.02.21-22.19.29:471][747]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.19.29:478][747]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.19.29
+[2020.02.21-22.19.29:478][747]LogWorld: Bringing up level for play took: 0.007077
+[2020.02.21-22.19.29:493][747]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld -0.608
+[2020.02.21-22.19.29:493][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.19.33:720][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.19.33:720][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.19.33:762][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.19.33:762][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.19.33:876][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.19.33:953][213]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.02.21-22.19.39:021][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.20.30:973][863]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.02.21-22.20.41:169][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2020.02.21-22.20.46:644][428]BlueprintLog: New page: Compile TopDownController
+[2020.02.21-22.21.18:995][898]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.21.19:029][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.19:030][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.21.19:030][898]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:21:19 PM)
+[2020.02.21-22.21.19:030][898]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.21.19:095][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065564s)
+[2020.02.21-22.21.19:096][898]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.21.19:097][898]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2020.02.21-22.21.19:097][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.067094s)
+[2020.02.21-22.21.19:245][898]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.21.19:272][898]LogInit: FAudioDevice initialized.
+[2020.02.21-22.21.19:309][898]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.21.19:315][898]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.21.19
+[2020.02.21-22.21.19:316][898]LogWorld: Bringing up level for play took: 0.007052
+[2020.02.21-22.21.19:330][898]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 1.23
+[2020.02.21-22.21.19:331][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.26:353][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.26:354][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.21.26:403][727]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.21.26:403][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.26:529][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.21.26:553][728]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.02.21-22.21.27:729][816]LogRenderer: Reallocating scene render targets to support 1652x916 Format 10 NumSamples 1 (Frame:18391).
+[2020.02.21-22.21.27:834][817]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:18393).
+[2020.02.21-22.21.27:835][817]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.21.30:737][993]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.21.33:359][145]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.21-22.21.33:394][145]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.33:394][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.21-22.21.33:394][145]PIE: New page: PIE session: BraveNewWorld (Feb 21, 2020, 12:21:33 PM)
+[2020.02.21-22.21.33:394][145]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.21-22.21.33:457][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063716s)
+[2020.02.21-22.21.33:458][145]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.21-22.21.33:458][145]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2020.02.21-22.21.33:458][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.065139s)
+[2020.02.21-22.21.33:625][145]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.21-22.21.33:652][145]LogInit: FAudioDevice initialized.
+[2020.02.21-22.21.33:653][145]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.21.33:686][145]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.21-22.21.33:693][145]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.21-17.21.33
+[2020.02.21-22.21.33:694][145]LogWorld: Bringing up level for play took: 0.007101
+[2020.02.21-22.21.33:709][145]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld -0.392
+[2020.02.21-22.21.33:709][145]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.47:870][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.47:871][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.21.47:919][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.21-22.21.47:919][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.21-22.21.48:003][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-22.21.48:016][137]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.02.21-22.26.36:550][655]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.21-22.26.37:348][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.21-22.26.37:924][733]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.21-22.26.39:639][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.21-22.26.40:476][905]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/BraveNewWorld7EFB90E54E3F8D484CB258999C88B5B2.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Maps/BraveNewWorld.umap'
+[2020.02.21-22.26.41:023][905]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Saved/BraveNewWorld_BuiltData4F6DB4BA4AF6EFE3B7A274AD2EE7EF84.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Project1_TheBox/Topdown_Map/Content/TopDownBP/Maps/BraveNewWorld_BuiltData.uasset'
+[2020.02.21-22.26.41:574][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
