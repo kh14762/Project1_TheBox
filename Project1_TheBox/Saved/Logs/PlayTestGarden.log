@@ -1,4 +1,4 @@
-﻿Log file open, 02/25/20 11:37:17
+﻿Log file open, 02/26/20 13:04:16
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PlayTestGarden
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.084106
+LogStats: Stats thread started at 0.334244
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.339s to configure plugins.
+LogStreaming: Display: Took  0.170s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,532 +149,539 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.009s to delete old logs.
+LogStreaming: Display: Took  0.011s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.25-16.37.21:033][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.25-16.37.21:033][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.25-16.37.21:034][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.25-16.37.21:035][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.25-16.37.21:035][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:035][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:150][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.25-16.37.21:150][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.25-16.37.21:151][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.25-16.37.21:152][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.25-16.37.21:161][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.25-16.37.21:161][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.25-16.37.21:265][  0]LogHAL: Display: Platform has ~ 8 GB [8562798592 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2020.02.25-16.37.21:274][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.25-16.37.21:274][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.25-16.37.21:274][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.25-16.37.21:274][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.25-16.37.21:274][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.25-16.37.21:275][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.25-16.37.21:276][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.25-16.37.21:309][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.25-16.37.21:309][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
-[2020.02.25-16.37.21:332][  0]LogInit: Computer: CRIMSONTIDE-PC
-[2020.02.25-16.37.21:332][  0]LogInit: User: CrimsonTide
-[2020.02.25-16.37.21:332][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.02.25-16.37.21:332][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.25-16.37.21:333][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.02.25-16.37.21:333][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.25-16.37.21:333][  0]LogMemory: Process Physical Memory: 107.84 MB used, 107.84 MB peak
-[2020.02.25-16.37.21:333][  0]LogMemory: Process Virtual Memory: 89.86 MB used, 89.86 MB peak
-[2020.02.25-16.37.21:333][  0]LogMemory: Physical Memory: 4618.90 MB used,  3547.22 MB free, 8166.12 MB total
-[2020.02.25-16.37.21:333][  0]LogMemory: Virtual Memory: 4634.81 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2020.02.25-16.37.22:520][  0]LogInit: Using OS detected language (en-US).
-[2020.02.25-16.37.22:520][  0]LogInit: Using OS detected locale (en-US).
-[2020.02.25-16.37.22:614][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.25-16.37.23:779][  0]LogStreaming: Display: Took  1.237s to InitEngineTextLocalization.
-[2020.02.25-16.37.23:803][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.25-16.37.24:716][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.25-16.37.24:716][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.25-16.37.29:776][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.25-16.37.29:776][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.25-16.37.29:915][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
-[2020.02.25-16.37.29:915][  0]LogD3D11RHI:       2007/0/4083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.02.25-16.37.29:927][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.25-16.37.29:927][  0]LogD3D11RHI:       0/0/4083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.25-16.37.29:927][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.25-16.37.29:943][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.25-16.37.29:943][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.25-16.37.29:943][  0]LogWindows: EnumDisplayDevices:
-[2020.02.25-16.37.29:943][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
-[2020.02.25-16.37.29:944][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
-[2020.02.25-16.37.29:945][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2020.02.25-16.37.29:945][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2020.02.25-16.37.29:945][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.02.25-16.37.29:946][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
-[2020.02.25-16.37.29:946][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
-[2020.02.25-16.37.29:946][  0]LogD3D11RHI:      Driver Date: 12-6-2019
-[2020.02.25-16.37.29:946][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2020.02.25-16.37.30:082][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.25-16.37.30:311][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.25-16.37.31:601][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.02.25-16.37.31:666][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.02.25-16.37.31:729][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.02.25-16.37.31:788][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.02.25-16.37.31:906][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.02.25-16.37.32:040][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.02.25-16.37.32:111][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.02.25-16.37.32:175][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.02.25-16.37.32:215][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.02.25-16.37.32:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.25-16.37.32:553][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.02.25-16.37.32:792][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.02.25-16.37.32:792][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.02.25-16.37.32:899][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.02.25-16.37.32:899][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.02.25-16.37.32:966][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.02.25-16.37.33:017][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.02.25-16.37.33:072][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.02.25-16.37.33:142][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.02.25-16.37.33:276][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.02.25-16.37.33:276][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.02.25-16.37.33:276][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.25-16.37.34:575][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Intermediate/Shaders/WorkingDirectory/1092/).
-[2020.02.25-16.37.34:576][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Crimson Tide/AppData/Local/Temp/UnrealShaderWorkingDir/F4CD88254471BA798F2B0B975C26BF3A/'.
-[2020.02.25-16.37.34:689][  0]LogXGEController: Cleaning working directory: C:/Users/Crimson Tide/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.02.25-16.37.34:690][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.25-16.37.34:690][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.25-16.37.34:690][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.25-16.37.39:341][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.25-16.37.39:725][  0]LogDerivedDataCache: Loaded boot cache 0.38s 71MB C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2020.02.25-16.37.39:725][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2020.02.25-16.37.39:725][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.25-16.37.39:725][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.25-16.37.39:725][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.25-16.37.39:725][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.25-16.37.39:831][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.25-16.37.39:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.25-16.37.39:831][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.25-16.37.39:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Crimson Tide/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.25-16.37.39:844][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.25-16.37.39:844][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.25-16.37.39:941][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.25-16.37.40:045][  0]LogSlate: Using FreeType 2.6.0
-[2020.02.25-16.37.40:220][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.25-16.37.41:311][  0]LogAssetRegistry: FAssetRegistry took 0.0652 seconds to start up
-[2020.02.25-16.37.47:623][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.25-16.37.50:589][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.02.25-16.37.50:874][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.02.25-16.37.50:874][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.25-16.37.50:896][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.25-16.37.50:896][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.02.25-16.37.51:377][  0]LogNetVersion: PlayTestGarden 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1473096081)
-[2020.02.25-16.37.58:011][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.177063 seconds
-[2020.02.25-16.37.58:040][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2020.02.25-16.37.58:040][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2020.02.25-16.37.58:040][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.25-16.38.11:722][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.25-16.38.11:856][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.25-16.38.14:748][  0]SourceControl: Source control is disabled
-[2020.02.25-16.38.14:756][  0]SourceControl: Source control is disabled
-[2020.02.25-16.38.14:911][  0]SourceControl: Source control is disabled
-[2020.02.25-16.38.14:972][  0]SourceControl: Source control is disabled
-[2020.02.25-16.38.17:557][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.25-16.38.17:933][  0]LogOcInput: OculusInput pre-init called
-[2020.02.25-16.38.19:368][  0]LogEngine: Initializing Engine...
-[2020.02.25-16.38.19:413][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.25-16.38.19:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.02.25-16.38.19:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.02.25-16.38.19:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.02.25-16.38.19:439][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.02.25-16.38.20:621][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.25-16.38.21:064][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.25-16.38.21:342][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.25-16.38.21:526][  0]LogInit: FAudioDevice initialized.
-[2020.02.25-16.38.21:526][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.25-16.38.21:674][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2020.02.25-16.38.21:710][  0]LogInit: Texture streaming: Enabled
-[2020.02.25-16.38.21:938][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.25-16.38.21:938][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={33E3BA23-40B2-5D03-BEDD-53B1407CD75D}
-[2020.02.25-16.38.22:882][  0]LogInit: Transaction tracking system initialized
-[2020.02.25-16.38.24:563][  0]BlueprintLog: New page: Editor Load
-[2020.02.25-16.38.30:613][  0]LocalizationService: Localization service is disabled
-[2020.02.25-16.38.33:215][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2020.02.25-16.38.33:216][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2020.02.25-16.38.33:216][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
-[2020.02.25-16.38.38:604][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/' took 0.04s
-[2020.02.25-16.38.38:604][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.25-16.38.38:604][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.25-16.38.38:604][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.02.25-16.38.38:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.02.25-16.38.38:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.02.25-16.38.38:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.02.25-16.38.38:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.02.25-16.38.56:018][  0]SourceControl: Source control is disabled
-[2020.02.25-16.38.56:397][  0]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.25-16.38.56:466][  0]LogEditorServer: Warning: Can't find file 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2020.02.25-16.38.56:678][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.25-16.38.56:994][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 262.893ms to complete.
-[2020.02.25-16.38.57:010][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.847
-[2020.02.25-16.39.10:886][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.39.11:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.39.11:160][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.39.11:173][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.39.12:333][  0]LogCollectionManager: Loaded 0 collections in 0.008906 seconds
-[2020.02.25-16.39.13:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Collections/' took 0.01s
-[2020.02.25-16.39.13:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/Developers/CrimsonTide/Collections/' took 0.00s
-[2020.02.25-16.39.13:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/Collections/' took 0.00s
-[2020.02.25-16.39.13:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.02.25-16.39.13:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0966 seconds. Added 2651 classes and 620 folders.
-[2020.02.25-16.39.14:635][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.02.25-16.39.14:972][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:210][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:328][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:448][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:508][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:718][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:865][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:904][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.15:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:131][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:151][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:222][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:522][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.16:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.25-16.39.19:007][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.25-16.39.19:288][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2020.02.25-16.39.28:792][  0]LogSlate: Took 0.037781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.25-16.39.29:219][  0]LogSlate: Took 0.043918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.25-16.39.29:928][  0]LogSlate: Took 0.061396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.25-16.39.33:691][  0]LogRenderer: Reallocating scene render targets to support 1040x628 Format 10 NumSamples 1 (Frame:1).
-[2020.02.25-16.39.38:123][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.25-16.39.38:123][  0]LogLoad: (Engine Initialization) Total time: 159.99 seconds
-[2020.02.25-16.39.38:123][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.25-16.39.39:779][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.25-16.39.40:801][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/' took 1.85s
-[2020.02.25-16.39.41:435][  1]LogSlate: Took 0.113994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.25-16.39.41:936][  3]LogAssetRegistry: Asset discovery search completed in 120.6479 seconds
-[2020.02.25-16.39.42:089][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2020.02.25-16.39.42:089][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.061581 seconds (updated 0 objects)
-[2020.02.25-16.39.42:713][  4]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.25-16.40.42:692][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.25-16.42.42:758][641]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/Item/Item.Item_C:itemStructure'. Unknown structure.
-[2020.02.25-16.42.42:793][641]LogClass: Warning: Property itemStructure of itemStructure has a struct type mismatch (tag STRUCT_REINST_ItemStructure_0 != prop FallbackStruct) in package:  C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/InventorySystem/Item/Item.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.02.25-16.42.42:927][641]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/InventoryUI/InventorySlot.InventorySlot_C:SlotContents'. Unknown structure.
-[2020.02.25-16.42.42:959][641]LogClass: Warning: Property SlotContents of SlotContents has a struct type mismatch (tag STRUCT_REINST_SlotStructure_1 != prop FallbackStruct) in package:  C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/InventorySystem/InventoryUI/InventorySlot.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.02.25-16.42.45:643][641]LogClass: Warning: Property itemStructure of itemStructure has a struct type mismatch (tag FallbackStruct != prop ItemStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.02.25-16.42.45:724][641]LogClass: Warning: Property SlotContents of SlotContents has a struct type mismatch (tag FallbackStruct != prop SlotStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2020.02.25-16.42.56:274][641]LogAIModule: Creating AISystem for world BraveNewWorld
-[2020.02.25-16.43.01:477][641]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld
-[2020.02.25-16.43.05:169][641]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/BraveNewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.25-16.43.05:225][641]LightingResults: New page: Lighting Build
-[2020.02.25-16.43.08:635][641]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
-[2020.02.25-16.43.08:643][641]LoadErrors: New page: Loading map: BraveNewWorld.umap
-[2020.02.25-16.43.08:906][641]MapCheck: New page: Map Check
-[2020.02.25-16.43.08:906][641]LightingResults: New page: Lighting Build
-[2020.02.25-16.43.18:184][641]LogEditorServer: Finished looking for orphan Actors (0.041 secs)
-[2020.02.25-16.43.19:421][641]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.25-16.43.19:423][641]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.623ms to complete.
-[2020.02.25-16.43.19:423][641]LogFileHelpers: Loading map 'BraveNewWorld' took 14.724
-[2020.02.25-16.43.26:392][684]LogTemp: Repeating last play command: Selected Viewport
-[2020.02.25-16.43.26:847][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.43.27:218][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.02.25-16.43.27:738][684]PIE: New page: PIE session: BraveNewWorld (Feb 25, 2020, 6:43:27 AM)
-[2020.02.25-16.43.28:755][684]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
-[2020.02.25-16.43.29:073][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.317979s)
-[2020.02.25-16.43.29:074][684]LogAIModule: Creating AISystem for world BraveNewWorld
-[2020.02.25-16.43.29:101][684]LogPlayLevel: PIE: World Init took: (0.027617s)
-[2020.02.25-16.43.29:101][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.385147s)
-[2020.02.25-16.43.29:736][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.25-16.43.29:782][684]LogInit: FAudioDevice initialized.
-[2020.02.25-16.43.30:002][684]LogLoad: Game class is 'TopDownGameMode_C'
-[2020.02.25-16.43.30:893][684]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.25-11.43.30
-[2020.02.25-16.43.32:427][684]LogWorld: Bringing up level for play took: 1.777658
-[2020.02.25-16.43.34:652][684]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2020.02.25-16.43.36:687][684]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 10.024
-[2020.02.25-16.43.36:688][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.43.40:055][685]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (16.670 sec). This should never happen. Something is wrong with the timer delegate!
-[2020.02.25-16.43.43:486][870]Cmd: LevelEditor.ToggleImmersive
-[2020.02.25-16.43.45:634][871]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:188).
-[2020.02.25-16.43.45:640][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.02.25-16.44.16:123][774]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.44.16:252][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.44.16:731][774]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.02.25-16.44.16:765][774]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.44.17:240][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.44.17:959][775]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2020.02.25-16.44.37:703][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.02.25-16.44.38:800][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.25-16.44.39:778][ 27]LogAIModule: Creating AISystem for world CyclopsLayer
-[2020.02.25-16.44.39:804][ 27]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/CyclopsLayer.CyclopsLayer
-[2020.02.25-16.44.39:940][ 27]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/CyclopsLayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.25-16.44.39:940][ 27]LightingResults: New page: Lighting Build
-[2020.02.25-16.44.39:941][ 27]LoadErrors: New page: Loading map: CyclopsLayer.umap
-[2020.02.25-16.44.40:011][ 27]MapCheck: New page: Map Check
-[2020.02.25-16.44.40:011][ 27]LightingResults: New page: Lighting Build
-[2020.02.25-16.44.41:756][ 27]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.25-16.44.42:197][ 27]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.25-16.44.42:200][ 27]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.113ms to complete.
-[2020.02.25-16.44.42:200][ 27]LogFileHelpers: Loading map 'CyclopsLayer' took 2.261
-[2020.02.25-16.45.47:031][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.25-16.45.47:441][122]LogAIModule: Creating AISystem for world BraveNewWorld
-[2020.02.25-16.45.47:467][122]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld
-[2020.02.25-16.45.47:606][122]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/BraveNewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.25-16.45.47:606][122]LightingResults: New page: Lighting Build
-[2020.02.25-16.45.47:607][122]LoadErrors: New page: Loading map: BraveNewWorld.umap
-[2020.02.25-16.45.47:609][122]MapCheck: New page: Map Check
-[2020.02.25-16.45.47:610][122]LightingResults: New page: Lighting Build
-[2020.02.25-16.45.48:068][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.25-16.45.48:293][122]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.25-16.45.48:299][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.212ms to complete.
-[2020.02.25-16.45.48:299][122]LogFileHelpers: Loading map 'BraveNewWorld' took 0.695
-[2020.02.25-16.45.50:381][300]LogTemp: Repeating last play command: Selected Viewport
-[2020.02.25-16.45.50:414][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.45.50:414][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.02.25-16.45.50:414][300]PIE: New page: PIE session: BraveNewWorld (Feb 25, 2020, 6:45:50 AM)
-[2020.02.25-16.45.50:414][300]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
-[2020.02.25-16.45.50:495][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080676s)
-[2020.02.25-16.45.50:495][300]LogAIModule: Creating AISystem for world BraveNewWorld
-[2020.02.25-16.45.50:496][300]LogPlayLevel: PIE: World Init took: (0.000930s)
-[2020.02.25-16.45.50:496][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.081808s)
-[2020.02.25-16.45.50:719][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.25-16.45.50:749][300]LogInit: FAudioDevice initialized.
-[2020.02.25-16.45.50:786][300]LogLoad: Game class is 'TopDownGameMode_C'
-[2020.02.25-16.45.50:794][300]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.25-11.45.50
-[2020.02.25-16.45.50:795][300]LogWorld: Bringing up level for play took: 0.008001
-[2020.02.25-16.45.50:809][300]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.192
-[2020.02.25-16.45.50:810][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.45.57:240][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.25-16.45.57:300][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.45.57:301][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.45.57:340][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.02.25-16.45.57:340][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.45.57:475][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.25-16.45.57:555][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2020.02.25-16.50.22:065][202]LogTemp: Repeating last play command: Selected Viewport
-[2020.02.25-16.50.22:166][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
-[2020.02.25-16.50.22:166][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.02.25-16.50.22:166][202]PIE: New page: PIE session: BraveNewWorld (Feb 25, 2020, 6:50:22 AM)
-[2020.02.25-16.50.22:166][202]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
-[2020.02.25-16.50.22:251][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084498s)
-[2020.02.25-16.50.22:251][202]LogAIModule: Creating AISystem for world BraveNewWorld
-[2020.02.25-16.50.22:252][202]LogPlayLevel: PIE: World Init took: (0.001102s)
-[2020.02.25-16.50.22:252][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.085840s)
-[2020.02.25-16.50.22:442][202]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.25-16.50.22:476][202]LogInit: FAudioDevice initialized.
-[2020.02.25-16.50.22:514][202]LogLoad: Game class is 'TopDownGameMode_C'
-[2020.02.25-16.50.22:522][202]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.25-11.50.22
-[2020.02.25-16.50.22:523][202]LogWorld: Bringing up level for play took: 0.008568
-[2020.02.25-16.50.22:539][202]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld -0.079
-[2020.02.25-16.50.22:539][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:328][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.26-18.04.17:328][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.26-18.04.17:329][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:329][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:340][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.26-18.04.17:340][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.26-18.04.17:341][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.26-18.04.17:342][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.26-18.04.17:342][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.26-18.04.17:342][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.26-18.04.17:376][  0]LogHAL: Display: Platform has ~ 8 GB [8562798592 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.26-18.04.17:376][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2020.02.26-18.04.17:376][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.26-18.04.17:377][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.26-18.04.17:377][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Scalability.ini]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.26-18.04.17:379][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.26-18.04.17:379][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Config/Windows/Engine.ini]
+[2020.02.26-18.04.17:379][  0]LogInit: Computer: CRIMSONTIDE-PC
+[2020.02.26-18.04.17:379][  0]LogInit: User: CrimsonTide
+[2020.02.26-18.04.17:379][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.26-18.04.17:379][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.26-18.04.17:380][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.02.26-18.04.17:380][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.26-18.04.17:380][  0]LogMemory: Process Physical Memory: 104.89 MB used, 104.89 MB peak
+[2020.02.26-18.04.17:380][  0]LogMemory: Process Virtual Memory: 90.01 MB used, 90.01 MB peak
+[2020.02.26-18.04.17:380][  0]LogMemory: Physical Memory: 6592.33 MB used,  1573.79 MB free, 8166.12 MB total
+[2020.02.26-18.04.17:380][  0]LogMemory: Virtual Memory: 4634.25 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2020.02.26-18.04.17:409][  0]LogInit: Using OS detected language (en-US).
+[2020.02.26-18.04.17:409][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.26-18.04.17:410][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.26-18.04.17:947][  0]LogStreaming: Display: Took  0.537s to InitEngineTextLocalization.
+[2020.02.26-18.04.17:947][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.26-18.04.18:015][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.26-18.04.18:015][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.26-18.04.18:307][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.26-18.04.18:307][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.26-18.04.18:435][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2020.02.26-18.04.18:435][  0]LogD3D11RHI:       2007/0/4083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.26-18.04.18:438][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.26-18.04.18:438][  0]LogD3D11RHI:       0/0/4083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.26-18.04.18:438][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.26-18.04.18:454][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.26-18.04.18:455][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.26-18.04.18:455][  0]LogWindows: EnumDisplayDevices:
+[2020.02.26-18.04.18:455][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2020.02.26-18.04.18:455][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2020.02.26-18.04.18:456][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.02.26-18.04.18:456][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2020.02.26-18.04.18:457][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.26-18.04.18:457][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2020.02.26-18.04.18:457][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.26-18.04.18:457][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.26-18.04.18:457][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2020.02.26-18.04.18:556][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.26-18.04.18:602][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.26-18.04.19:145][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.02.26-18.04.19:168][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.02.26-18.04.19:190][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.02.26-18.04.19:214][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.02.26-18.04.19:241][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.02.26-18.04.19:264][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.02.26-18.04.19:289][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.02.26-18.04.19:312][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.02.26-18.04.19:323][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:454][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.26-18.04.19:456][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.02.26-18.04.19:535][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.26-18.04.19:535][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.26-18.04.19:575][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.26-18.04.19:575][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.26-18.04.19:598][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.02.26-18.04.19:622][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.02.26-18.04.19:644][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.02.26-18.04.19:666][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.02.26-18.04.19:737][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.02.26-18.04.19:737][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.02.26-18.04.19:737][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.26-18.04.19:825][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Intermediate/Shaders/WorkingDirectory/10732/).
+[2020.02.26-18.04.19:825][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Crimson Tide/AppData/Local/Temp/UnrealShaderWorkingDir/2392DA454098F68916C051A574DBB125/'.
+[2020.02.26-18.04.19:829][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.26-18.04.19:829][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.26-18.04.19:829][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.26-18.04.20:734][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.26-18.04.20:825][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.02.26-18.04.20:825][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2020.02.26-18.04.20:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.26-18.04.20:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.26-18.04.20:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.26-18.04.20:825][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.26-18.04.20:850][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.26-18.04.20:850][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.26-18.04.20:850][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.26-18.04.20:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Crimson Tide/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.26-18.04.20:863][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.26-18.04.20:863][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.26-18.04.20:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.26-18.04.20:902][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.26-18.04.20:903][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.26-18.04.21:019][  0]LogAssetRegistry: FAssetRegistry took 0.0409 seconds to start up
+[2020.02.26-18.04.21:594][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.26-18.04.21:808][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.02.26-18.04.21:813][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.02.26-18.04.21:813][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.26-18.04.21:813][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.26-18.04.21:813][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.02.26-18.04.21:831][  0]LogNetVersion: PlayTestGarden 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1473096081)
+[2020.02.26-18.04.22:599][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.154707 seconds
+[2020.02.26-18.04.22:607][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2020.02.26-18.04.22:607][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2020.02.26-18.04.22:607][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.26-18.04.23:820][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.26-18.04.23:835][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.26-18.04.24:744][  0]SourceControl: Source control is disabled
+[2020.02.26-18.04.24:744][  0]SourceControl: Source control is disabled
+[2020.02.26-18.04.24:744][  0]SourceControl: Source control is disabled
+[2020.02.26-18.04.24:745][  0]SourceControl: Source control is disabled
+[2020.02.26-18.04.24:919][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.26-18.04.25:077][  0]LogOcInput: OculusInput pre-init called
+[2020.02.26-18.04.25:242][  0]LogEngine: Initializing Engine...
+[2020.02.26-18.04.25:244][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.26-18.04.25:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.02.26-18.04.25:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.26-18.04.25:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.02.26-18.04.25:246][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.26-18.04.25:570][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.26-18.04.25:593][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.26-18.04.25:660][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.26-18.04.25:763][  0]LogInit: FAudioDevice initialized.
+[2020.02.26-18.04.25:763][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.26-18.04.25:915][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/Crimson Tide/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.02.26-18.04.25:924][  0]LogInit: Texture streaming: Enabled
+[2020.02.26-18.04.25:951][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.26-18.04.26:021][  0]LogInit: Transaction tracking system initialized
+[2020.02.26-18.04.26:072][  0]BlueprintLog: New page: Editor Load
+[2020.02.26-18.04.26:221][  0]LocalizationService: Localization service is disabled
+[2020.02.26-18.04.26:595][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2020.02.26-18.04.26:596][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2020.02.26-18.04.26:596][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2020.02.26-18.04.27:162][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.26-18.04.27:162][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.26-18.04.27:175][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.02.26-18.04.27:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.02.26-18.04.27:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.26-18.04.27:176][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.02.26-18.04.27:176][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.26-18.04.27:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/' took 0.09s
+[2020.02.26-18.04.27:343][  0]SourceControl: Source control is disabled
+[2020.02.26-18.04.27:344][  0]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.26-18.04.27:344][  0]LogEditorServer: Warning: Can't find file 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.02.26-18.04.27:344][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.26-18.04.27:344][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.22ms to complete.
+[2020.02.26-18.04.27:344][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.001
+[2020.02.26-18.04.31:078][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-18.04.31:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-18.04.31:210][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-18.04.31:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-18.04.31:575][  0]LogCollectionManager: Loaded 0 collections in 0.010399 seconds
+[2020.02.26-18.04.32:197][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/Collections/' took 0.01s
+[2020.02.26-18.04.32:197][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/Developers/CrimsonTide/Collections/' took 0.00s
+[2020.02.26-18.04.32:197][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/Collections/' took 0.00s
+[2020.02.26-18.04.32:197][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.26-18.04.32:280][  0]LogContentBrowser: Native class hierarchy populated in 0.0473 seconds. Added 2651 classes and 620 folders.
+[2020.02.26-18.04.32:782][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.02.26-18.04.32:968][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:113][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:315][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:370][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:397][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:434][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:755][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:867][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:938][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:971][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:980][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.33:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.34:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.26-18.04.35:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.02.26-18.04.35:155][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.02.26-18.04.36:730][  0]LogSlate: Took 0.000781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.26-18.04.36:737][  0]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.26-18.04.36:842][  0]LogSlate: Took 0.025924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.26-18.04.38:288][  0]LogRenderer: Reallocating scene render targets to support 1040x628 Format 10 NumSamples 1 (Frame:1).
+[2020.02.26-18.04.38:942][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.02.26-18.04.38:942][  0]LogLoad: (Engine Initialization) Total time: 23.90 seconds
+[2020.02.26-18.04.38:942][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.26-18.04.39:124][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.26-18.04.39:277][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/' took 0.27s
+[2020.02.26-18.04.39:303][  1]LogAssetRegistry: Asset discovery search completed in 18.3066 seconds
+[2020.02.26-18.04.39:305][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.26-18.04.39:306][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2020.02.26-18.04.42:082][290]LogSlate: Took 0.035847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.26-18.04.43:470][418]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.26-19.29.10:808][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-19.29.16:354][ 37]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/Item/Item.Item_C:itemStructure'. Unknown structure.
+[2020.02.26-19.29.16:364][ 37]LogClass: Warning: Property itemStructure of itemStructure has a struct type mismatch (tag STRUCT_REINST_ItemStructure_0 != prop FallbackStruct) in package:  C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/InventorySystem/Item/Item.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.26-19.29.16:400][ 37]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/TopDownBP/InventorySystem/InventoryUI/InventorySlot.InventorySlot_C:SlotContents'. Unknown structure.
+[2020.02.26-19.29.16:422][ 37]LogClass: Warning: Property SlotContents of SlotContents has a struct type mismatch (tag STRUCT_REINST_SlotStructure_1 != prop FallbackStruct) in package:  C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/InventorySystem/InventoryUI/InventorySlot.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.26-19.29.16:926][ 37]LogClass: Warning: Property itemStructure of itemStructure has a struct type mismatch (tag FallbackStruct != prop ItemStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.26-19.29.16:946][ 37]LogClass: Warning: Property SlotContents of SlotContents has a struct type mismatch (tag FallbackStruct != prop SlotStructure) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2020.02.26-19.29.20:361][ 37]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.26-19.29.21:557][ 37]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld
+[2020.02.26-19.29.22:407][ 37]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/BraveNewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.26-19.29.22:410][ 37]LightingResults: New page: Lighting Build
+[2020.02.26-19.29.22:501][ 37]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0168 seconds. Added 5 classes and 0 folders.
+[2020.02.26-19.29.22:504][ 37]LoadErrors: New page: Loading map: BraveNewWorld.umap
+[2020.02.26-19.29.22:637][ 37]MapCheck: New page: Map Check
+[2020.02.26-19.29.22:637][ 37]LightingResults: New page: Lighting Build
+[2020.02.26-19.29.25:649][ 37]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.26-19.29.26:189][ 37]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.26-19.29.26:191][ 37]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.548ms to complete.
+[2020.02.26-19.29.26:191][ 37]LogFileHelpers: Loading map 'BraveNewWorld' took 3.887
+[2020.02.26-19.29.29:881][283]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.26-19.29.30:023][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.29.30:057][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.26-19.29.30:119][283]PIE: New page: PIE session: BraveNewWorld (Feb 26, 2020, 9:29:30 AM)
+[2020.02.26-19.29.30:204][283]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.26-19.29.30:385][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180844s)
+[2020.02.26-19.29.30:386][283]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.26-19.29.30:399][283]LogPlayLevel: PIE: World Init took: (0.012796s)
+[2020.02.26-19.29.30:399][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.195136s)
+[2020.02.26-19.29.30:658][283]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.26-19.29.30:780][283]LogInit: FAudioDevice initialized.
+[2020.02.26-19.29.30:908][283]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.26-19.29.31:115][283]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.26-14.29.31
+[2020.02.26-19.29.31:341][283]LogWorld: Bringing up level for play took: 0.276921
+[2020.02.26-19.29.31:653][283]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.02.26-19.29.31:814][283]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 2.375
+[2020.02.26-19.29.31:815][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.15:598][350]Cmd: LevelEditor.ToggleImmersive
+[2020.02.26-19.30.16:055][351]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:5069).
+[2020.02.26-19.30.16:064][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.26-19.30.17:713][455]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.17:746][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-19.30.17:977][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.26-19.30.17:978][455]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.18:162][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-19.30.18:521][456]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.02.26-19.30.21:684][632]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.26-19.30.21:718][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.21:718][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.26-19.30.21:718][632]PIE: New page: PIE session: BraveNewWorld (Feb 26, 2020, 9:30:21 AM)
+[2020.02.26-19.30.21:718][632]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.26-19.30.21:779][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060917s)
+[2020.02.26-19.30.21:780][632]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.26-19.30.21:780][632]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2020.02.26-19.30.21:780][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.062082s)
+[2020.02.26-19.30.21:921][632]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.26-19.30.21:950][632]LogInit: FAudioDevice initialized.
+[2020.02.26-19.30.21:951][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.26-19.30.21:987][632]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.26-19.30.21:994][632]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.26-14.30.21
+[2020.02.26-19.30.21:994][632]LogWorld: Bringing up level for play took: 0.006844
+[2020.02.26-19.30.22:009][632]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.571
+[2020.02.26-19.30.22:010][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.48:304][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.48:304][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-19.30.48:354][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.26-19.30.48:354][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.30.48:504][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-19.30.48:514][452]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.02.26-19.30.49:095][477]Cmd: SELECT NONE
+[2020.02.26-19.30.51:432][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.26-19.30.52:487][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-19.30.59:609][501]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/InventorySystem/SlotStructure.SlotStructure
+[2020.02.26-19.31.02:612][735]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/InventorySystem/ItemStructure.ItemStructure
+[2020.02.26-19.31.06:734][102]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/InventorySystem/InventoryComponent.InventoryComponent
+[2020.02.26-19.31.08:561][102]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 117 classes and 0 folders.
+[2020.02.26-19.31.11:131][102]LogSlate: Took 0.032407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.26-19.31.12:062][103]LogSlate: Took 0.037142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.26-19.31.32:408][367]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/InventorySystem/InventoryUI/InventoryWindow.InventoryWindow
+[2020.02.26-19.31.42:291][284]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/InventorySystem/InventoryUI/HUD.HUD
+[2020.02.26-19.31.53:627][403]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.02.26-19.32.13:413][229]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/InventorySystem/InventoryUI/InventorySlot.InventorySlot
+[2020.02.26-19.33.10:272][461]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/InventorySystem/ItemStructure.ItemStructure
+[2020.02.26-19.33.14:170][849]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/InventorySystem/Interact_Interface.Interact_Interface
+[2020.02.26-19.33.26:577][ 49]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/InventorySystem/SlotStructure.SlotStructure
+[2020.02.26-19.34.01:674][669]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.26-19.34.01:751][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.34.01:752][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.26-19.34.01:752][669]PIE: New page: PIE session: BraveNewWorld (Feb 26, 2020, 9:34:01 AM)
+[2020.02.26-19.34.01:752][669]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld
+[2020.02.26-19.34.01:823][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071184s)
+[2020.02.26-19.34.01:824][669]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.26-19.34.01:824][669]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2020.02.26-19.34.01:825][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld to /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld (0.072580s)
+[2020.02.26-19.34.02:034][669]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.26-19.34.02:063][669]LogInit: FAudioDevice initialized.
+[2020.02.26-19.34.02:099][669]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.26-19.34.02:118][669]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld.BraveNewWorld up for play (max tick rate 0) at 2020.02.26-14.34.02
+[2020.02.26-19.34.02:120][669]LogWorld: Bringing up level for play took: 0.019954
+[2020.02.26-19.34.02:137][669]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_BraveNewWorld 0.698
+[2020.02.26-19.34.02:137][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.34.34:806][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-19.36.23:969][  4]LogAIModule: Creating AISystem for world CyclopsLayer
+[2020.02.26-19.36.23:990][  4]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/CyclopsLayer.CyclopsLayer
+[2020.02.26-19.36.25:524][  4]LogSlate: Window 'Message' being destroyed
+[2020.02.26-19.36.25:533][  4]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.36.25:533][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-19.36.25:601][  4]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.26-19.36.25:601][  4]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld' with GeneratedClass '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/BraveNewWorld.BraveNewWorld:PersistentLevel.BraveNewWorld'
+[2020.02.26-19.36.25:715][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-19.36.25:727][  4]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/CyclopsLayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.26-19.36.25:740][  4]LightingResults: New page: Lighting Build
+[2020.02.26-19.36.25:741][  4]LoadErrors: New page: Loading map: CyclopsLayer.umap
+[2020.02.26-19.36.25:762][  4]MapCheck: New page: Map Check
+[2020.02.26-19.36.25:762][  4]LightingResults: New page: Lighting Build
+[2020.02.26-19.36.27:068][  4]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.26-19.36.27:265][  4]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.26-19.36.27:265][  4]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.209ms to complete.
+[2020.02.26-19.36.27:265][  4]LogFileHelpers: Loading map 'CyclopsLayer' took 3.138
+[2020.02.26-19.36.27:552][  5]LogPlayLevel: Display: Destroying online subsystem :Context_14
