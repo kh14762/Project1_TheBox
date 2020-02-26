@@ -685,3 +685,393 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.26-19.36.27:265][  4]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.209ms to complete.
 [2020.02.26-19.36.27:265][  4]LogFileHelpers: Loading map 'CyclopsLayer' took 3.138
 [2020.02.26-19.36.27:552][  5]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.02.26-19.44.55:184][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-19.45.30:822][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-19.45.42:617][815]LogAIModule: Creating AISystem for world BraveNewWorld
+[2020.02.26-19.45.51:733][681]LogMetaData: Removing '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden_C' ref from Metadata '/Game/TopDownBP/Maps/BraveNewWorld.PackageMetaData'
+[2020.02.26-19.45.51:733][681]LogMetaData: Removing '/Game/TopDownBP/Maps/PlayTestGarden.SKEL_PlayTestGarden_C' ref from Metadata '/Game/TopDownBP/Maps/BraveNewWorld.PackageMetaData'
+[2020.02.26-19.45.52:357][681]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGarden_BuiltDataF4BED10847B5D493E819F5BEC1503358.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden_BuiltData.uasset'
+[2020.02.26-19.45.53:502][681]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGarden247693F94C14F61B9E48FFAEEE11F3BE.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden.umap'
+[2020.02.26-19.45.53:529][681]LogFileHelpers: Saving map 'PlayTestGarden' took 1.101
+[2020.02.26-20.12.40:421][719]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/CyclopsLayer.CyclopsLayer
+[2020.02.26-20.12.40:582][719]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/CyclopsLayer.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.26-20.12.40:582][719]LightingResults: New page: Lighting Build
+[2020.02.26-20.12.40:583][719]LoadErrors: New page: Loading map: CyclopsLayer.umap
+[2020.02.26-20.12.40:587][719]MapCheck: New page: Map Check
+[2020.02.26-20.12.40:587][719]LightingResults: New page: Lighting Build
+[2020.02.26-20.12.41:331][719]LogAIModule: Creating AISystem for world CyclopsLayer
+[2020.02.26-20.12.41:622][719]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.26-20.12.41:816][719]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.26-20.12.41:816][719]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.205ms to complete.
+[2020.02.26-20.12.41:819][719]LogFileHelpers: Loading map 'CyclopsLayer' took 1.240
+[2020.02.26-20.12.43:748][890]LogAIModule: Creating AISystem for world PlayTestGarden
+[2020.02.26-20.12.43:768][890]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden
+[2020.02.26-20.12.43:867][890]Cmd: MAP LOAD FILE="C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.26-20.12.43:867][890]LightingResults: New page: Lighting Build
+[2020.02.26-20.12.43:868][890]LoadErrors: New page: Loading map: PlayTestGarden.umap
+[2020.02.26-20.12.43:871][890]MapCheck: New page: Map Check
+[2020.02.26-20.12.43:871][890]LightingResults: New page: Lighting Build
+[2020.02.26-20.12.44:276][890]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.26-20.12.44:490][890]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.26-20.12.44:492][890]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.205ms to complete.
+[2020.02.26-20.12.44:493][890]LogFileHelpers: Loading map 'PlayTestGarden' took 0.627
+[2020.02.26-20.12.46:944][139]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.26-20.12.46:987][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden' with GeneratedClass '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden'
+[2020.02.26-20.12.46:987][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.26-20.12.46:988][139]PIE: New page: PIE session: PlayTestGarden (Feb 26, 2020, 10:12:46 AM)
+[2020.02.26-20.12.46:988][139]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden
+[2020.02.26-20.12.47:067][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078903s)
+[2020.02.26-20.12.47:068][139]LogAIModule: Creating AISystem for world PlayTestGarden
+[2020.02.26-20.12.47:068][139]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2020.02.26-20.12.47:068][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden to /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden (0.080343s)
+[2020.02.26-20.12.47:257][139]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.26-20.12.47:291][139]LogInit: FAudioDevice initialized.
+[2020.02.26-20.12.47:324][139]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.02.26-20.12.47:332][139]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden up for play (max tick rate 0) at 2020.02.26-15.12.47
+[2020.02.26-20.12.47:333][139]LogWorld: Bringing up level for play took: 0.007653
+[2020.02.26-20.12.47:347][139]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden -0.092
+[2020.02.26-20.12.47:348][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden' with GeneratedClass '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden'
+[2020.02.26-20.12.49:969][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.12.52:507][703]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.12.52:629][703]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:630][703]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:655][703]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:662][704]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:664][704]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:665][704]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:680][704]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:749][705]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:751][705]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:752][705]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:775][705]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:782][706]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:793][706]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:801][707]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:803][707]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:805][707]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:805][707]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:817][707]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:824][708]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:825][708]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:837][708]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:843][709]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:855][709]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:861][710]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:872][710]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:878][711]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:889][711]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:903][712]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:910][713]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:920][713]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:926][714]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:938][714]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:944][715]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:955][715]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:961][716]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:971][716]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:986][717]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.52:992][718]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:002][718]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:008][719]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:010][719]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:020][719]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:026][720]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:036][720]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:042][721]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:044][721]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:054][721]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:060][722]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:061][722]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:062][722]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:063][722]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:073][722]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:079][723]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:080][723]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:081][723]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:091][723]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:221][733]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:233][733]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:239][734]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:250][734]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:389][744]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:395][745]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:397][745]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:406][745]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:421][746]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:427][747]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:437][747]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:444][748]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:454][748]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:460][749]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:461][749]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:472][749]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:478][750]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:488][750]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:494][751]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:496][751]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:497][751]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:507][751]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:514][752]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:524][752]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:530][753]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:531][753]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:541][753]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:547][754]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:549][754]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:550][754]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:560][754]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:566][755]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:568][755]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:578][755]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:585][756]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:586][756]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:596][756]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:603][757]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:605][757]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:606][757]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:617][757]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:623][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:625][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:627][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:629][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:631][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:631][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:641][758]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:648][759]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:658][759]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:664][760]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:674][760]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:681][761]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:683][761]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:684][761]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:694][761]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:700][762]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:702][762]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:713][762]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:719][763]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:720][763]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:730][763]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:736][764]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:747][764]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:753][765]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:763][765]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:769][766]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.53:779][766]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:272][802]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:279][803]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:280][803]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:281][803]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:291][803]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:297][804]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:298][804]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:308][804]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:314][805]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:324][805]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:330][806]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:332][806]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:333][806]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:343][806]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:349][807]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:350][807]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:360][807]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:366][808]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:404][811]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:432][813]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:487][817]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:497][817]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:504][818]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:515][818]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:521][819]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:523][819]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:524][819]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:534][819]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:540][820]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:542][820]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:552][820]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:559][821]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:561][821]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:562][821]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:563][821]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:574][821]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:581][822]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:582][822]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:592][822]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:599][823]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:609][823]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:616][824]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:791][837]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:793][837]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:794][837]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:804][837]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:810][838]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:812][838]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:821][838]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:828][839]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:839][839]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:845][840]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:855][840]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:862][841]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:872][841]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:878][842]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:880][842]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:890][842]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:896][843]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:907][843]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:913][844]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:915][844]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:925][844]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.54:931][845]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:103][857]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:120][859]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:122][859]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:132][859]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:139][860]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:141][860]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:143][860]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:145][860]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:146][860]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:156][860]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:163][861]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:164][861]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:174][861]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:180][862]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:182][862]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:193][862]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:199][863]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:209][863]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:362][874]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:368][875]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:370][875]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:380][875]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:386][876]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:397][876]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:403][877]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:405][877]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:406][877]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:416][877]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:422][878]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:424][878]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:434][878]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:441][879]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:442][879]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:443][879]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:454][879]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:460][880]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.55:470][880]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:786][ 33]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.12.56:789][ 33]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:790][ 33]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:804][ 33]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:811][ 34]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:812][ 34]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:824][ 34]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:831][ 35]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:832][ 35]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:833][ 35]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:844][ 35]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:850][ 36]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:861][ 36]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:868][ 37]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:870][ 37]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:872][ 37]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:873][ 37]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:874][ 37]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:885][ 37]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:890][ 38]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:892][ 38]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:902][ 38]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:909][ 39]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:911][ 39]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:912][ 39]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:923][ 39]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:929][ 40]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:931][ 40]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:932][ 40]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:943][ 40]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:949][ 41]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:951][ 41]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:953][ 41]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:954][ 41]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:965][ 41]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:971][ 42]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:973][ 42]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:974][ 42]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:984][ 42]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.56:990][ 43]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:001][ 43]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:007][ 44]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:008][ 44]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:010][ 44]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:020][ 44]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:026][ 45]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:037][ 45]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:044][ 46]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:046][ 46]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:056][ 46]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:063][ 47]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:064][ 47]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:074][ 47]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:089][ 48]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:095][ 49]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:105][ 49]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:111][ 50]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:113][ 50]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:113][ 50]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:124][ 50]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:130][ 51]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:131][ 51]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:142][ 51]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:148][ 52]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:159][ 52]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:165][ 53]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:166][ 53]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:168][ 53]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:180][ 53]PIE: Warning: Mobility of /Game/TopDownBP/Maps/UEDPIE_0_PlayTestGarden.PlayTestGarden:PersistentLevel.Cube_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2020.02.26-20.12.57:323][ 62]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.13.00:365][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.13.00:426][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden' with GeneratedClass '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden'
+[2020.02.26-20.13.00:426][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-20.13.00:486][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.26-20.13.00:486][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden' with GeneratedClass '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/PlayTestGarden.PlayTestGarden:PersistentLevel.PlayTestGarden'
+[2020.02.26-20.13.00:622][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.26-20.13.00:791][299]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.02.26-20.13.01:976][396]LogSlate: Window 'Message Log' being destroyed
+[2020.02.26-20.13.01:982][396]LogSlate: Window 'Message Log' being destroyed
+[2020.02.26-20.13.03:754][595]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.13.04:464][659]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.13.17:135][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.13.28:811][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.13.35:956][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.13.37:435][ 99]LogSlate: Window 'Save Content' being destroyed
+[2020.02.26-20.13.38:207][ 99]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGardenD1FACD3D41B5091C2C6C89B6858E15D6.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden.umap'
+[2020.02.26-20.13.38:288][ 99]LogFileHelpers: Saving map 'PlayTestGarden' took 0.820
+[2020.02.26-20.14.55:901][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.26-20.14.58:352][719]Cmd: DELETE
+[2020.02.26-20.14.58:352][719]Cmd: ACTOR DELETE
+[2020.02.26-20.14.58:466][719]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.26-20.14.58:604][719]LogEditorActor: Deleted 1 Actors (0.214 secs)
+[2020.02.26-20.14.59:573][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.15.01:233][809]LogSlate: Window 'Save Content' being destroyed
+[2020.02.26-20.15.01:989][809]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGarden3BB5D91D427227BCB66C3791CAA7E57E.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden.umap'
+[2020.02.26-20.15.02:055][809]LogFileHelpers: Saving map 'PlayTestGarden' took 0.799
+[2020.02.26-20.15.19:745][ 28]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.15.20:228][ 74]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.15.22:613][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.15.26:694][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.15.29:894][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.15.34:106][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.15.38:919][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.15.40:531][ 90]LogSlate: Window 'Save Content' being destroyed
+[2020.02.26-20.15.41:254][ 90]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGarden845C2B674642CEECBECBABB08053FEBC.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden.umap'
+[2020.02.26-20.15.41:322][ 90]LogFileHelpers: Saving map 'PlayTestGarden' took 0.766
+[2020.02.26-20.16.05:896][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.26-20.16.07:427][328]Cmd: DELETE
+[2020.02.26-20.16.07:427][328]Cmd: ACTOR DELETE
+[2020.02.26-20.16.07:448][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.26-20.16.07:585][328]LogEditorActor: Deleted 1 Actors (0.157 secs)
+[2020.02.26-20.16.08:663][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.16.08:788][461]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.16.09:415][519]LogActorFactory: Actor Factory created Cube
+[2020.02.26-20.16.12:666][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.26-20.16.13:471][866]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGarden0184D01A4691E4123BC1A688D2C15498.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden.umap'
+[2020.02.26-20.16.14:034][866]LogSavePackage: Moving 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Saved/PlayTestGarden_BuiltData460D56B541D41E9CACC0C3A078F55A19.tmp' to 'C:/Users/Crimson Tide/Documents/GitHub/Tesseract-Game-Project-1/Project1_TheBox/Content/TopDownBP/Maps/PlayTestGarden_BuiltData.uasset'
