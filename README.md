@@ -3,16 +3,19 @@
  //open in raw to read
  
   /*-----------------------------------------------File Navaigation--------------------------------------------------------*/
- //To Open Levels: Content -> TopDownBP -> Maps -> PlaytestGarden.umaps
- //Code for Player & PlayerController: TopDownBP-> Blueprints
+ //To Open Levels: Content -> TopDownBP -> Maps -> CyclopesLayer(UnderGround)
+ //Code for  GameMode & PlayerController: TopDownBP-> Blueprints
  //The Code for the inventory can be found in Content -> TopDownBP -> InventorySystem (you may have to open unreal editor to see blueprints)
+ //Code for Player Moved to companion file
+ 
  
  
  /*-----------------------------------------------Controls----------------------------------------------------------------*/
- //Left Click: Move Player Character
- //Middle Mouse Button: Hold Down To rotate Camera
- //Tab: Push to open inventory interface, push again to close
- //E: Interact with object (the only interactable object is herb item)
+-RIGHT Click: Move Player Character
+-MIDDLE Mouse Button: Hold Down To rotate Camera
+-Push 1 to switch pawn possesion, each pawn has an array element. 1 cycles through the array.
+-TAB: open inventory, inventory is bound to each player object
+-E: Pick up materials, actor is deleted when action key is pressed
  
  
  /*--------------------------------------------------Progress-------------------------------------------------------------*/
@@ -28,6 +31,7 @@
  
  /*--------------------------------------------------Problems-------------------------------------------------------------*/
  //I am having problems adding a texture thumbnail and item quantity to the Inventory Slot overlay when object is "picked up".
+ //
  
  
 
